@@ -1,0 +1,10 @@
+applications:
+- host: karlvehicle
+  disk: 128M
+  name: karlvehicle
+  command: node app.js
+  path: .
+  domain: stage1.mybluemix.net
+  memory: 128M
+  instances: 3
+
