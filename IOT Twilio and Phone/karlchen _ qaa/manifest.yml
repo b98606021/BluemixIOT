@@ -1,0 +1,9 @@
+applications:
+- host: KarlSMS
+  disk: 1024M
+  name: KarlSMS
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  mem: 128M
+  instances: 1
