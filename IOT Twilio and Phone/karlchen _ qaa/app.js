@@ -37,9 +37,9 @@ app.get('/', function(request, response) {
      // from: Enter the number Twilio alloted to your account
      // body: The message you would like to send
      client.messages.create({
-         body:'Twilio notification through Bluemix!',
+         body:'Pls study hard and foucs on course! From Twilio notification through Bluemix!',
          to: '+886925065861',
-         from: '5873168087',      
+         from: '5873168087',
         }, function(err, message) {
              response.send('Message sent to ! ID:' +message.sid);
     });
